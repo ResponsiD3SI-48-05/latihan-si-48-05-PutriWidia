@@ -30,12 +30,12 @@ public class latihan1 {
 
         // Input data
         masaKerja = scanner.nextInt(); //5
-        int jumlahJamLembur = scanner.nextInt(); //6
+        int jumlahJamLembur = scanner.nextInt(); //5
 
         // Hitung gaji dan uang lembur
         int gaji = hitungGaji();
         int uangLembur = hitungUangLembur(jumlahJamLembur);
 
-        System.out.println("Total Gaji Anda Adalah : " + gaji + uangLembur);
+        System.out.println("Total Gaji Anda Adalah : \n" + gaji + uangLembur);
     }
 }
