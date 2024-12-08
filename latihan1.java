@@ -7,7 +7,7 @@ public class latihan1 {
         if (masaKerja < 5) {
             return 5000000;
         } else if (masaKerja >= 5 && masaKerja <= 10) {
-            return 7500000;
+            return 75000000;
         } else {
             return 10000000;
         }
@@ -36,6 +36,6 @@ public class latihan1 {
         int gaji = hitungGaji();
         int uangLembur = hitungUangLembur(jumlahJamLembur);
 
-        System.out.println("Total Gaji Anda Adalah : \n" + gaji + uangLembur);
+        System.out.println("Total Gaji Anda Adalah : " + gaji + uangLembur);
     }
 }
