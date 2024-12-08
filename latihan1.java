@@ -28,17 +28,14 @@ public class latihan1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan masa kerja (dalam tahun): ");
-        masaKerja = scanner.nextInt();
+        // Input data
+        masaKerja = scanner.nextInt(); //5
+        int jumlahJamLembur = scanner.nextInt(); //6
 
-        System.out.print("Masukkan jumlah jam lembur: ");
-        int jumlahJamLembur = scanner.nextInt();
-
+        // Hitung gaji dan uang lembur
         int gaji = hitungGaji();
         int uangLembur = hitungUangLembur(jumlahJamLembur);
-        int totalGaji = gaji + uangLembur;
 
-        // Output sesuai format autograding
         System.out.println("Total Gaji Anda Adalah : " + gaji + uangLembur);
     }
 }
